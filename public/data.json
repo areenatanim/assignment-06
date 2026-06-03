@@ -1,0 +1,129 @@
+[
+    {
+        "id": "PRD-001",
+        "name": "Starter Resume",
+        "description": "Perfect for fresh graduates building their first professional resume.",
+        "price": "20$",
+        "period": "one-time",
+        "tag": "Free",
+        "tagType": "new",
+        "features": [
+            "5 templates",
+            "PDF export",
+            "Basic ATS check"
+        ],
+        "icon": "ti-file-text"
+    },
+    {
+        "id": "PRD-002",
+        "name": "Pro Builder",
+        "description": "Advanced tools for job seekers who want to stand out in competitive markets.",
+        "price": "12$",
+        "period": "monthly",
+        "tag": "Popular",
+        "tagType": "popular",
+        "features": [
+            "100+ templates",
+            "ATS optimization",
+            "Export to PDF & DOCX",
+            "Cover letter builder"
+        ],
+        "icon": "ti-rocket"
+    },
+    {
+        "id": "PRD-003",
+        "name": "Career Suite",
+        "description": "All-in-one career toolkit with LinkedIn profile sync and interview prep.",
+        "price": "14$",
+        "period": "yearly",
+        "tag": "Best Seller",
+        "tagType": "bestseller",
+        "features": [
+            "Everything in Pro",
+            "LinkedIn sync",
+            "Interview Q&A coach",
+            "Unlimited exports"
+        ],
+        "icon": "ti-briefcase"
+    },
+    {
+        "id": "PRD-004",
+        "name": "Design Pack",
+        "description": "Creative resume templates for designers, artists, and visual professionals.",
+        "price": "30$",
+        "period": "one-time",
+        "tag": "New",
+        "tagType": "new",
+        "features": [
+            "30 creative templates",
+            "Custom color themes",
+            "Portfolio page",
+            "Print-ready files"
+        ],
+        "icon": "ti-palette"
+    },
+    {
+        "id": "PRD-005",
+        "name": "Team Plan",
+        "description": "Manage resume workflows for your entire HR or recruitment team.",
+        "price": "10$",
+        "period": "monthly",
+        "tag": "Trending",
+        "tagType": "trending",
+        "features": [
+            "Up to 10 seats",
+            "Team dashboard",
+            "Shared template library",
+            "Priority support"
+        ],
+        "icon": "ti-users"
+    },
+    {
+        "id": "PRD-006",
+        "name": "Executive Edge",
+        "description": "Premium service for C-suite professionals with a dedicated resume expert.",
+        "price": "50$",
+        "period": "one-time",
+        "tag": "Limited",
+        "tagType": "limited",
+        "features": [
+            "1-on-1 expert session",
+            "Custom-written resume",
+            "LinkedIn rewrite",
+            "30-day revisions"
+        ],
+        "icon": "ti-crown"
+    },
+    {
+        "id": "PRD-007",
+        "name": "Student Bundle",
+        "description": "Affordable yearly plan for students and recent graduates.",
+        "price": "12$",
+        "period": "yearly",
+        "tag": "Recommended",
+        "tagType": "recommended",
+        "features": [
+            "50+ templates",
+            "Campus job board links",
+            "GPA & project highlights",
+            "Email support"
+        ],
+        "icon": "ti-school"
+    },
+    {
+        "id": "PRD-008",
+        "name": "API Access",
+        "description": "Programmatic access to our resume parsing and generation engine for developers.",
+        "price": "80$",
+        "period": "monthly",
+        "tag": "New",
+        "tagType": "new",
+        "features": [
+            "10k API calls/mo",
+            "JSON & PDF output",
+            "Webhook support",
+            "99.9% uptime SLA"
+        ],
+        "icon": "ti-code"
+    }
+]
