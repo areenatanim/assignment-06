@@ -10,9 +10,10 @@
         "features": [
             "5 templates",
             "PDF export",
-            "Basic ATS check"
+            "Basic ATS check",
+            "Grammar checker"
         ],
-        "icon": "ti-file-text"
+        "icon": "https://i.ibb.co.com/zKhPw4M/portfolio.png"
     },
     {
         "id": "PRD-002",
@@ -28,7 +29,7 @@
             "Export to PDF & DOCX",
             "Cover letter builder"
         ],
-        "icon": "ti-rocket"
+        "icon": "https://i.ibb.co.com/7JwBLdjJ/design-tool.png"
     },
     {
         "id": "PRD-003",
@@ -44,7 +45,7 @@
             "Interview Q&A coach",
             "Unlimited exports"
         ],
-        "icon": "ti-briefcase"
+        "icon": "https://i.ibb.co.com/S4q5xr5J/operation.png"
     },
     {
         "id": "PRD-004",
@@ -60,7 +61,7 @@
             "Portfolio page",
             "Print-ready files"
         ],
-        "icon": "ti-palette"
+        "icon": "https://i.ibb.co.com/9kr7WQZ5/social-media.png"
     },
     {
         "id": "PRD-005",
@@ -76,7 +77,7 @@
             "Shared template library",
             "Priority support"
         ],
-        "icon": "ti-users"
+        "icon": "https://i.ibb.co.com/wF0p7260/writing-2327400-1.png"
     },
     {
         "id": "PRD-006",
@@ -92,7 +93,7 @@
             "LinkedIn rewrite",
             "30-day revisions"
         ],
-        "icon": "ti-crown"
+        "icon": "https://i.ibb.co.com/prMcCZkX/package.png"
     },
     {
         "id": "PRD-007",
@@ -108,7 +109,7 @@
             "GPA & project highlights",
             "Email support"
         ],
-        "icon": "ti-school"
+        "icon": "https://i.ibb.co.com/hJGpVSqn/rocket.png"
     },
     {
         "id": "PRD-008",
@@ -124,6 +125,6 @@
             "Webhook support",
             "99.9% uptime SLA"
         ],
-        "icon": "ti-code"
+        "icon": "https://i.ibb.co.com/0pQ3mMq8/Group-5-1.png"
     }
 ]
