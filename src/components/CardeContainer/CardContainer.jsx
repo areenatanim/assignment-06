@@ -31,7 +31,13 @@ const CardContainer = ({ cardData, setCart, cart }) => {
                                 cart={cart}
                             ></Card>)
                     }
-                </div> : <Cart></Cart>}
+                </div> :
+                <Cart
+                    cart={cart}
+                    setCart={setCart}
+                    cartsCount={cartsCount}
+                    setCartsCount={setCartsCount}
+                ></Cart>}
 
 
         </div>

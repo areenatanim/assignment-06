@@ -10,6 +10,7 @@ const Card = ({ information, setCart, cart, setCartsCount, cartsCount }) => {
         // toast("Wow so easy!");
 
         setCart(cart + 1);
+        alert(`${information.name} selected In the cart`)
         setCartsCount([...cartsCount, information])
 
     }
