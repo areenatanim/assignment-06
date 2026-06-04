@@ -1,5 +1,5 @@
 
-const CardHading = ({ active, setActive }) => {
+const CardHading = ({ active, setActive, cartsCount }) => {
     return (
         <div>
             <div className="flex flex-col items-center justify-center">
@@ -17,7 +17,7 @@ const CardHading = ({ active, setActive }) => {
                     <button
                         onClick={() => { setActive("cart") }}
                         className={`btn btn-outline rounded-4xl  ${active === "cart" ? " text-white bg-linear-to-r from-[#652EF7] to-[#9216FA]" : "border-[#662EF7] text-[#662EF7]"}`}>
-                        Cart (2)</button>
+                        Cart({cartsCount.length})</button>
                 </div>
             </div>
         </div>

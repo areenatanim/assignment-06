@@ -1,10 +1,23 @@
+import { useState } from "react";
 import { TiTick } from "react-icons/ti";
-const Card = ({ information }) => {
-    console.log(information.features);
-    // const { name, description, price, period, features } = information;
+// import { ToastContainer, toast } from 'react-toastify';
+const Card = ({ information, setCart, cart, setCartsCount, cartsCount }) => {
+
+    const [selected, setSelected] = useState(false);
+
+    const handelBuyNow = () => {
+        setSelected(true);
+        // toast("Wow so easy!");
+
+        setCart(cart + 1);
+        setCartsCount([...cartsCount, information])
+
+    }
+
 
     return (
         <div className="my-8 p-2">
+            {/* <ToastContainer /> */}
             <div className="card hover:-translate-3 w-96 bg-base-100 shadow-xl">
                 <div className="card-body">
                     <div className="flex justify-end">
@@ -22,7 +35,13 @@ const Card = ({ information }) => {
                         }
                     </ul>
                     <div className="mt-6">
-                        <button className="btn btn-primary btn-block rounded-4xl bg-linear-to-r from-[#652EF7] to-[#9216FA] text-white border-0">Subscribe</button>
+                        <button
+                            onClick={() => { handelBuyNow() }}
+                            disabled={selected ? true : false}
+                            className={`${selected ? "btn hover:-translate-3 btn-block rounded-4xl bg-linear-to-r from-[#652EF7] to-[#9216FA] text-white border-0" : "btn btn-outline btn-block rounded-4xl"}`}
+
+                        >{selected === true ? "Added to cart" : "Buy Now"}</button>
+
                     </div>
                 </div>
             </div>
