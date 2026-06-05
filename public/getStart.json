@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "name": "Create Account",
+        "img": "https://i.ibb.co.com/XZNTVWzr/user.png",
+        "description": "Sign up for free in seconds. No credit card required to get started.."
+    },
+    {
+        "id": 2,
+        "name": "Choose Products",
+        "img": "https://i.ibb.co.com/prMcCZkX/package.png",
+        "description": "Browse our catalog and select the tools that fit your needs.welcome to react world."
+    },
+    {
+        "id": 3,
+        "name": "Start Creating",
+        "img": "https://i.ibb.co.com/hJGpVSqn/rocket.png",
+        "description": "Download and start using your premium tools immediately.welcome to react world."
+    }
+]

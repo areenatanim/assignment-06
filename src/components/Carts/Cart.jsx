@@ -3,6 +3,8 @@ const Cart = ({ cartsCount, setCartsCount, cart, setCart }) => {
         const filterCart = cartsCount.filter(finalCart => finalCart.name !== cartData.name);
         setCartsCount(filterCart);
         setCart(cart - 1);
+
+
     }
     return (
         <div>
@@ -30,9 +32,7 @@ const Cart = ({ cartsCount, setCartsCount, cart, setCart }) => {
                                     </button>
                                 </div>
                             </div>
-                            <div>
 
-                            </div>
                         </div>
                     )
                 })

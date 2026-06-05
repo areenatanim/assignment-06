@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "offer_name": "Starter",
+        "description": "Perfect for individuals and small projects.",
+        "price": 0,
+        "currency": "USD",
+        "billing": "monthly",
+        "button": "Get Started Free",
+        "features": [
+            "5 Projects",
+            "10 GB Storage",
+            "Email Support",
+            "Basic Analytics"
+        ]
+    },
+    {
+        "id": 2,
+        "offer_name": "Pro",
+        "description": "Great for growing teams and businesses.",
+        "price": 29,
+        "currency": "USD",
+        "billing": "monthly",
+        "button": "Start Pro Trial",
+        "features": [
+            "Unlimited Projects",
+            "100 GB Storage",
+            "Priority Support",
+            "Advanced Analytics",
+            "Team Collaboration"
+        ]
+    },
+    {
+        "id": 3,
+        "offer_name": "Enterprise",
+        "description": "For large-scale operations and enterprises.",
+        "price": 99,
+        "currency": "USD",
+        "billing": "monthly",
+        "button": "Contact Sales",
+        "features": [
+            "Everything in Pro",
+            "1 TB Storage",
+            "24/7 Dedicated Support",
+            "Custom Integrations",
+            "SLA Guarantee",
+            "SSO & Advanced Security"
+        ]
+    }
+]
