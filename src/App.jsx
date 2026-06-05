@@ -12,7 +12,7 @@ import Footer from './components/Footer/Footer'
 function App() {
   const cardData = fetch("/data.json").then(rest => rest.json());
   const gateStartData = fetch("/getStart.json").then(rest => rest.json());
-  const priceData = fetch("/public/priceData.json").then(rest => rest.json());
+  const priceData = fetch("/priceData.json").then(rest => rest.json());
 
   const [cart, setCart] = useState(0);
 
