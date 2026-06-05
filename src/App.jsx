@@ -6,6 +6,8 @@ import NavBar from './components/NavBar/NavBar'
 import State from './components/States/State'
 import GetStartMain from './components/GetStart/GetStartMain'
 import PriceContainer from './components/PriceMain/PriceContainer'
+import Workflow from './components/Workflow/Workflow'
+import Footer from './components/Footer/Footer'
 
 function App() {
   const cardData = fetch("/data.json").then(rest => rest.json());
@@ -37,7 +39,14 @@ function App() {
             <PriceContainer priceData={priceData}></PriceContainer>
           </Suspense>
         </section>
+
+        <section>
+          <Workflow></Workflow>
+        </section>
       </main>
+      <footer>
+        <Footer></Footer>
+      </footer>
     </>
   )
 }
